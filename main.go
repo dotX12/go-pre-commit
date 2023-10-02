@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/lietu/go-pre-commit/commands"
+	"github.com/dotX12/go-pre-commit/commands"
 )
 
 func main() {
