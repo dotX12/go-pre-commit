@@ -43,3 +43,9 @@ repos:
         files: ''
         language: system
         description: Prune no-longer required commits from go.mod
+      - id: golines
+        name: golines
+        entry: go-pre-commit golines
+        files: '\.go$'
+        language: system
+        description: Check your Go code with golines
